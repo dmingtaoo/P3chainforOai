@@ -1,0 +1,56 @@
+[2024-02-26 15:35:04] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (1) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:35:09] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (1) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:35:14] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (1) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:35:19] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (1) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:35:19] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:19] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:19] [warning] peer.go:207 p3Chain/p2p/server.(*Peer).pingLoop heart beate, ping协程退出
+
+[2024-02-26 15:35:19] [error] dial.go:216 p3Chain/p2p/server.(*dialTask).Do dial error: dial tcp 127.0.0.1:20130: connect: connection refused
+[2024-02-26 15:35:19] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:19] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:19] [warning] peer.go:207 p3Chain/p2p/server.(*Peer).pingLoop heart beate, ping协程退出
+
+[2024-02-26 15:35:19] [warning] synchronization.go:209 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization failed: Couldn't Read the next message from the remote peer (ea52714e4fd1a6875f02248962351555ab0a232ef8eaf938479d775ff4febf40017c0d010261cf4710af0c4f535a397504010b0e0da37875c3a4441072c9f5d9), err:EOF
+
+[2024-02-26 15:35:19] [error] dial.go:216 p3Chain/p2p/server.(*dialTask).Do dial error: dial tcp 127.0.0.1:20136: connect: connection refused
+[2024-02-26 15:35:20] [warning] synchronization.go:209 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization failed: Couldn't Read the next message from the remote peer (a40fd9471091bc7f23835d1fa79bcb1cc4fa0ca2a5d1e8e6e2c83858af5e47e11d1a2675211fd8bda73057ee36e7c75ed53bafa425dd7954963996339d315bdf), err:EOF
+
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [warning] peer.go:207 p3Chain/p2p/server.(*Peer).pingLoop heart beate, ping协程退出
+
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [error] dial.go:216 p3Chain/p2p/server.(*dialTask).Do dial error: dial tcp 127.0.0.1:20135: connect: connection refused
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [warning] peer.go:207 p3Chain/p2p/server.(*Peer).pingLoop heart beate, ping协程退出
+
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [warning] synchronization.go:209 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization failed: Couldn't Read the next message from the remote peer (aa9452e8ff26a194ba85f5d7073f6bf0490d61da15f7447a86379eadb7a23f689d0590efc3748fd6cad744de6c1ee4d437a83cb65d03e8a1347c4a2ac78a1b1a), err:EOF
+
+[2024-02-26 15:35:20] [error] dial.go:216 p3Chain/p2p/server.(*dialTask).Do dial error: dial tcp 127.0.0.1:20133: connect: connection refused
+[2024-02-26 15:35:20] [warning] peer.go:207 p3Chain/p2p/server.(*Peer).pingLoop heart beate, ping协程退出
+
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [warning] synchronization.go:209 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization failed: Couldn't Read the next message from the remote peer (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1), err:EOF
+
+[2024-02-26 15:35:20] [error] dial.go:216 p3Chain/p2p/server.(*dialTask).Do dial error: dial tcp 127.0.0.1:20132: connect: connection refused
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [warning] peer.go:207 p3Chain/p2p/server.(*Peer).pingLoop heart beate, ping协程退出
+
+[2024-02-26 15:35:20] [warning] synchronization.go:209 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization failed: Couldn't Read the next message from the remote peer (1b469003b449ae80da03061f2a4fa7306c4cf364ebacb3d67a65417735238ea6a164afdef5a43ceac85f80f0b18729fda57ba01134f470952945093dc149cd23), err:EOF
+
+[2024-02-26 15:35:20] [warning] peer.go:316 p3Chain/p2p/server.(*Peer).startProtocols.func1 协议handshake, 协议Run函数错误,err:EOF
+
+[2024-02-26 15:35:20] [error] dial.go:216 p3Chain/p2p/server.(*dialTask).Do dial error: dial tcp 127.0.0.1:20131: connect: connection refused

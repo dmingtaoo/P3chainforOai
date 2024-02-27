@@ -1,0 +1,57 @@
+version: "3"
+
+services:
+  booter:
+    image: p3chain:1.1
+    stdin_open: true
+    working_dir: /home
+    volumes:
+      - ./../auto/dper_booter1:/home/dper
+      - ./perpare.sh:/home/perpare.sh
+    container_name: booter
+    command: ./perpare.sh
+    network_mode: host 
+  node1:
+    image: p3chain:1.1
+    working_dir: /home
+    volumes:
+      - ./../auto/dper_dper1:/home/dper
+      - ./perpare.sh:/home/perpare.sh
+    container_name: node1
+    command: ./perpare.sh
+    depends_on:
+      - booter
+    network_mode: host 
+  node2:
+    image: p3chain:1.1
+    working_dir: /home
+    volumes:
+      - ./../auto/dper_dper2:/home/dper
+      - ./perpare.sh:/home/perpare.sh
+    container_name: node2
+    command: ./perpare.sh
+    depends_on:
+      - booter
+    network_mode: host 
+  node3:
+    image: p3chain:1.1
+    working_dir: /home
+    volumes:
+      - ./../auto/dper_dper3:/home/dper
+      - ./perpare.sh:/home/perpare.sh
+    container_name: node3
+    command: ./perpare.sh
+    depends_on:
+      - booter
+    network_mode: host 
+  node4:
+    image: p3chain:1.1
+    working_dir: /home
+    volumes:
+      - ./../auto/dper_dper4:/home/dper
+      - ./perpare.sh:/home/perpare.sh
+    container_name: node4
+    command: ./perpare.sh
+    depends_on:
+      - booter
+    network_mode: host 

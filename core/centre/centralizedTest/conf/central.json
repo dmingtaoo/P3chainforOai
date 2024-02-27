@@ -1,0 +1,22 @@
+{
+    "PeerCount":3,
+    "NetCount":2,
+    "Peers":[
+    {
+        "NodeID_S":"5af5ac707f70beadd7482c084f5f58dcaf828ae2a5b962995ff2629dd4c8f3c5d40cfef00b6587b5d738f0edfdded41a9ddc5f37ee72f99869a3d5bdfb5f5226",
+        "Role":2,    
+        "NetID":"testnet1"
+    },
+    {
+        "NodeID_S": "aa96e39c9ba468051188e0e244f2adaa9e97120918e741d54760c75982b4daf4cd04423d6348d1fe38de4099af8e12be1b18dc7d50c63318149a7a07102920e3",
+        "Role":2,
+        "NetID":"testnet2"
+    },
+    {
+        "NodeID_S":"5369eb44d57e4dbdff2324e459b097f403e5e1bdf7faf3c59df9cb8452dafd3cb62acaca8520585b42eeaede7d6588d7e828e1f0170f10d43635be2ce0e6320d",
+        "Role":3,
+        "NetID":"testnet1"
+    }
+    ]
+
+}

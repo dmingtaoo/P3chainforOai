@@ -1,0 +1,246 @@
+[2024-02-26 15:32:00] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:03] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:03] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:03] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:03] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:03] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:05] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:08] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:08] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:08] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:08] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:08] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:10] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:13] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:13] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:13] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:13] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:13] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:13] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn 9c932476cf018f45 127.0.0.1:62453 failed checkpoint posthandshake: Connected to self
+[2024-02-26 15:32:13] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn dyn dial conn 9c932476cf018f45 127.0.0.1:20132 failed checkpoint posthandshake: Connected to self
+[2024-02-26 15:32:15] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:18] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:18] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:18] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:18] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:18] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:20] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:23] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:23] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:23] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:23] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:23] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:25] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:28] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:28] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:28] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:28] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:28] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:30] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:33] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:33] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:33] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:33] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:33] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:35] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:38] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:38] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:38] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:38] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:38] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:40] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:43] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:43] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:43] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:43] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:43] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:45] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:45] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn 9c932476cf018f45 127.0.0.1:62595 failed checkpoint posthandshake: Connected to self
+[2024-02-26 15:32:45] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn static dial conn 9c932476cf018f45 127.0.0.1:20132 failed checkpoint posthandshake: Connected to self
+[2024-02-26 15:32:48] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:48] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:48] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:48] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:48] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:49] [info] orderAgent.go:190 p3Chain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel收到来自节点(352865d3401a4b5b694d52406900046e6caa9e409eafe45b4d04f78da8fae5ddfe5eb812912185ebf97d3ef426b2a5aa551dec7ea85a7bd532652fd278952b90)的 CODE_NEXT Msg, next Block Version(0000000000000000000000000000000000000000000000000000000000000000) and Block Height(0)
+
+[2024-02-26 15:32:49] [info] orderAgent.go:320 p3Chain/core/blockOrdering.(*BlockOrderAgent).handleNEXT [Block Ordering] Upper Consensus: 等待完成交易执行......
+
+[2024-02-26 15:32:49] [info] blockChain.go:562 p3Chain/core/eles.(*BlockChain).StaleCheck [Block Chain] StaleCheck 被调用
+
+[2024-02-26 15:32:49] [info] orderAgent.go:322 p3Chain/core/blockOrdering.(*BlockOrderAgent).handleNEXT [Block Ordering] Upper Consensus: 完成交易执行，交易回执(数量:1)生成成功!
+
+[2024-02-26 15:32:49] [info] peer.go:76 p3Chain/core/separator.(*peer).sendMsg Separator: Send msg to peer: 352865d3401a4b5b694d52406900046e6caa9e409eafe45b4d04f78da8fae5ddfe5eb812912185ebf97d3ef426b2a5aa551dec7ea85a7bd532652fd278952b90, msgcode: 3
+
+[2024-02-26 15:32:49] [info] orderAgent.go:192 p3Chain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel完成对来自节点(352865d3401a4b5b694d52406900046e6caa9e409eafe45b4d04f78da8fae5ddfe5eb812912185ebf97d3ef426b2a5aa551dec7ea85a7bd532652fd278952b90)的 CODE_NEXT Msg的处理
+[2024-02-26 15:32:49] [info] orderAgent.go:200 p3Chain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel收到来自节点(352865d3401a4b5b694d52406900046e6caa9e409eafe45b4d04f78da8fae5ddfe5eb812912185ebf97d3ef426b2a5aa551dec7ea85a7bd532652fd278952b90)的 CODE_CMIT Msg, Msg.height:1  local.Height:0 
+
+[2024-02-26 15:32:49] [info] peer.go:76 p3Chain/core/separator.(*peer).sendMsg Separator: Send msg to peer: 352865d3401a4b5b694d52406900046e6caa9e409eafe45b4d04f78da8fae5ddfe5eb812912185ebf97d3ef426b2a5aa551dec7ea85a7bd532652fd278952b90, msgcode: 3
+
+[2024-02-26 15:32:49] [info] orderAgent.go:436 p3Chain/core/blockOrdering.(*BlockOrderAgent).handleCMIT [Block Ordering] 准备提交区块到数据库, current Block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb 
+
+[2024-02-26 15:32:49] [info] blockChain.go:308 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock开始启动, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:321 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] 测试1: CommitBlock可以拿到databaseMutex的写锁
+
+[2024-02-26 15:32:49] [info] blockChain.go:324 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock进行新区块的插入, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:331 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock完成新区块的插入, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:333 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock准备执行区块内的交易, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:340 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock完成对区块内交易的执行, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:354 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock准备更新交易过滤器, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:358 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock完成对交易过滤器的更新, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
+[2024-02-26 15:32:49] [info] blockChain.go:368 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock准备更新区块链状态量, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb , block Height:1 
+
+[2024-02-26 15:32:49] [info] blockChain.go:377 p3Chain/core/eles.(*BlockChain).CommitBlock [Block Chain] CommitBlock完成对区块链状态量的更新, block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb , block Height:1 
+
+[2024-02-26 15:32:49] [warning] blockChain.go:379 p3Chain/core/eles.(*BlockChain).CommitBlock Current NodeID:9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1 commit Block into LevelDB
+
+[2024-02-26 15:32:49] [info] orderAgent.go:443 p3Chain/core/blockOrdering.(*BlockOrderAgent).handleCMIT [Block Ordering] 完成区块提交, current Block Hash:7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb 
+
+[2024-02-26 15:32:49] [info] orderAgent.go:202 p3Chain/core/blockOrdering.(*BlockOrderAgent).ProcessMessage [Block Ordering] Upper Channel完成对来自节点(352865d3401a4b5b694d52406900046e6caa9e409eafe45b4d04f78da8fae5ddfe5eb812912185ebf97d3ef426b2a5aa551dec7ea85a7bd532652fd278952b90)的 CODE_CMIT Msg的处理
+
+[2024-02-26 15:32:50] [info] synchronization.go:234 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization: Receive GetBlockHashesFromNumberMsg from remote peer (47bf17240c1a78aad68b363899bd12b0501a7916ee9465701c84dee05d625436a6cddf655e36057553f6ef7d97c5e82b31f8a4c978e408d8708bbaba4d0a7f91), Request block start number (0), count (30)
+
+[2024-02-26 15:32:50] [info] blockChain.go:515 p3Chain/core/eles.(*BlockChain).GetBlockByNumber [Block Chain] GetBlockByNumber 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:508 p3Chain/core/eles.(*BlockChain).GetCurrentBlock [Block Chain] GetCurrentBlock 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:50] [warning] synchronization.go:240 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization: The number (30) of blocks requested by the remote node, and the actual number of blocks returned is (1) and currentHeight (0)
+
+[2024-02-26 15:32:50] [info] blockChain.go:476 p3Chain/core/eles.(*BlockChain).GetBlockHashesFromHash [Block Chain] GetBlockHashesFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:50] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:50] [info] synchronization.go:307 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization: Receive GetBlocksMsg from remote peer (47bf17240c1a78aad68b363899bd12b0501a7916ee9465701c84dee05d625436a6cddf655e36057553f6ef7d97c5e82b31f8a4c978e408d8708bbaba4d0a7f91), Total number (1) of blocks to be acquired by remote peer, Total number (1) of blocks returned
+
+[2024-02-26 15:32:50] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:50] [info] synchronization.go:234 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization: Receive GetBlockHashesFromNumberMsg from remote peer (ea52714e4fd1a6875f02248962351555ab0a232ef8eaf938479d775ff4febf40017c0d010261cf4710af0c4f535a397504010b0e0da37875c3a4441072c9f5d9), Request block start number (0), count (30)
+
+[2024-02-26 15:32:50] [info] blockChain.go:515 p3Chain/core/eles.(*BlockChain).GetBlockByNumber [Block Chain] GetBlockByNumber 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:508 p3Chain/core/eles.(*BlockChain).GetCurrentBlock [Block Chain] GetCurrentBlock 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:50] [warning] synchronization.go:240 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization: The number (30) of blocks requested by the remote node, and the actual number of blocks returned is (1) and currentHeight (0)
+
+[2024-02-26 15:32:50] [info] blockChain.go:476 p3Chain/core/eles.(*BlockChain).GetBlockHashesFromHash [Block Chain] GetBlockHashesFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:50] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:51] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:51] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:51] [info] synchronization.go:307 p3Chain/blockSync.(*SyncProtocal).handleMsg Block synchronization: Receive GetBlocksMsg from remote peer (ea52714e4fd1a6875f02248962351555ab0a232ef8eaf938479d775ff4febf40017c0d010261cf4710af0c4f535a397504010b0e0da37875c3a4441072c9f5d9), Total number (1) of blocks to be acquired by remote peer, Total number (1) of blocks returned
+
+[2024-02-26 15:32:53] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:53] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:53] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:53] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:53] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:54] [info] blockChain.go:444 p3Chain/core/eles.(*BlockChain).GetBlocksFromHash [Block Chain] GetBlocksFromHash 被调用
+
+[2024-02-26 15:32:54] [info] blockChain.go:397 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 被调用
+
+[2024-02-26 15:32:54] [info] blockChain.go:424 p3Chain/core/eles.(*BlockChain).GetBlockFromHash [Block Chain] GetBlockFromHash 调用结束
+
+[2024-02-26 15:32:54] [info] state_manager_intra.go:152 p3Chain/core/worldstate.(*IntraStateManager).SetWorldStateVersion set intra world state version to 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+[2024-02-26 15:32:54] [info] peer.go:76 p3Chain/core/separator.(*peer).sendMsg Separator: Send msg to peer: 47bf17240c1a78aad68b363899bd12b0501a7916ee9465701c84dee05d625436a6cddf655e36057553f6ef7d97c5e82b31f8a4c978e408d8708bbaba4d0a7f91, msgcode: 7
+
+[2024-02-26 15:32:54] [info] peer.go:76 p3Chain/core/separator.(*peer).sendMsg Separator: Send msg to peer: ea52714e4fd1a6875f02248962351555ab0a232ef8eaf938479d775ff4febf40017c0d010261cf4710af0c4f535a397504010b0e0da37875c3a4441072c9f5d9, msgcode: 7
+
+[2024-02-26 15:32:54] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb, old version: 0x0000000000000000000000000000000000000000000000000000000000000000
+
+[2024-02-26 15:32:55] [info] separator.go:376 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 成功与nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1建立静态链接, 节点IP:127.0.0.1 , 端口号:20132
+
+[2024-02-26 15:32:58] [warning] separator.go:293 p3Chain/core/separator.(*Separator).DoBind Separator Construct: (2) nodes unable to establish P2P communication due to exceptions
+[2024-02-26 15:32:58] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (net1)
+
+[2024-02-26 15:32:58] [info] separator.go:296 p3Chain/core/separator.(*Separator).DoBind 查询到的断连节点: NodeID (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) , NetID (upper)
+
+[2024-02-26 15:32:58] [info] separator.go:404 p3Chain/core/separator.(*Separator).TidyDialBook 删除与节点 (9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1) 的静态连接 
+
+[2024-02-26 15:32:58] [info] separator.go:368 p3Chain/core/separator.(*Separator).MakeDialBook separator层: 位于unAdded集合中的节点nodeID: 9c932476cf018f45b243ffbef8c88c5db9aff40c6bd58436de58aeeaacf2065e2cd7e0a72cea9d2cf9852f72016f9d7021abc37d2d89ddd1052b25b70a3411a1
+
+[2024-02-26 15:32:58] [info] peer.go:76 p3Chain/core/separator.(*peer).sendMsg Separator: Send msg to peer: 47bf17240c1a78aad68b363899bd12b0501a7916ee9465701c84dee05d625436a6cddf655e36057553f6ef7d97c5e82b31f8a4c978e408d8708bbaba4d0a7f91, msgcode: 7
+
+[2024-02-26 15:32:58] [info] peer.go:76 p3Chain/core/separator.(*peer).sendMsg Separator: Send msg to peer: ea52714e4fd1a6875f02248962351555ab0a232ef8eaf938479d775ff4febf40017c0d010261cf4710af0c4f535a397504010b0e0da37875c3a4441072c9f5d9, msgcode: 7
+
+[2024-02-26 15:32:58] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb, old version: 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+

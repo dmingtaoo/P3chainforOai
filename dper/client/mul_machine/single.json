@@ -1,0 +1,39 @@
+{
+    "MachineCount": 3,
+    "BooterIP": "10.129.68.44",
+    "Machines":[
+        {
+            "IP":"10.129.68.44",
+            "DirPath":"/home/oem/github/MyDP_Chain/dper/client/auto/10.129.68.44",
+            "StartNode":1,
+            "EndNode":4,
+            "HasBooter":true,
+
+            "NetID":"net0",
+            "LeaderCount":1,
+            "FollowerCount":3
+        },
+        {
+            "IP":"10.129.118.55",
+            "DirPath":"/home/jackson/auto/10.129.118.55",
+            "StartNode":5,
+            "EndNode":8,
+            "HasBooter":false,
+
+            "NetID":"net1",
+            "LeaderCount":1,
+            "FollowerCount":3
+        },
+        {
+            "IP":"10.129.121.202",
+            "DirPath":"/home/zwd/auto/10.129.121.202",
+            "StartNode":9,
+            "EndNode":12,
+            "HasBooter":false,
+
+            "NetID":"net2",
+            "LeaderCount":1,
+            "FollowerCount":3
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "GroupCount":3,
+    "Groups":[
+        {
+            "StartNode":1,
+            "EndNode":4,
+            "NetID":"net0",
+            "LeaderCount":1,
+            "FollowerCount":3
+        },
+        {
+            "StartNode":5,
+            "EndNode":8,
+            "NetID":"net1",
+            "LeaderCount":1,
+            "FollowerCount":3
+        },
+        {
+            "StartNode":9,
+            "EndNode":12,
+            "NetID":"net2",
+            "LeaderCount":1,
+            "FollowerCount":3
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+[2024-02-26 15:32:54] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb, old version: 0x0000000000000000000000000000000000000000000000000000000000000000
+
+[2024-02-26 15:32:58] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb, old version: 0x7b5e488355ecda07fa1ebbcae5f00d593dd0910647d0521f64fee0165def11bb
+
