@@ -50,6 +50,18 @@ func removeSpaces(str string) string {
 	return strings.ReplaceAll(str, " ", "")
 }
 
+func ExtractAddress(input string) (string, error) {
+	prefix := "address:"
+	startIndex := strings.Index(input, prefix)
+	if startIndex == -1 {
+		return "", fmt.Errorf("address prefix not found")
+	}
+
+	// 提取并返回地址
+	address := input[startIndex+len(prefix):]
+	return address, nil
+}
+
 type VC struct {
 	Identifier     string   `json:"identifier"`     // VC ID
 	Subject        string   `json:"subject"`        // SP DID
@@ -1029,28 +1041,6 @@ func DataSend2(ds *api.DperService) func(*gin.Context) {
 		}
 	}
 }
-func GetAddress(ds *api.DperService) func(*gin.Context) {
-	return func(c *gin.Context) {
-		DID := c.PostForm("DID")
-		// 合约调用逻辑...
-		contractName := "DID::SPECTRUM::TRADE"
-		functionName := "GetAddress"
-		args := DID
-		commandStr := "invoke " + contractName + " " + functionName + " -args " + args
-		receipt, err := ds.SoftInvoke(commandStr)
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "error": err.Error()})
-			return
-		}
-		Address, err := ResultToAddress(receipt.Result)
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "error": err.Error()})
-			return
-		} else {
-			c.JSON(http.StatusOK, gin.H{"address": Address})
-		}
-	}
-}
 
 func SignatureReturn(ds *api.DperService) func(*gin.Context) {
 	return func(c *gin.Context) {
@@ -1356,31 +1346,74 @@ func AMFsend(ds *api.DperService) func(*gin.Context) {
 
 }
 
+func GetAddress(ds *api.DperService) func(*gin.Context) {
+	return func(c *gin.Context) {
+		DID := c.PostForm("DID")
+		// 合约调用逻辑...
+		contractName := "DID::SPECTRUM::TRADE"
+		functionName := "GetAddress"
+		args := DID
+
+		commandStr := "call " + contractName + " " + functionName + " -args " + args
+		Address := ""
+		data, err := ds.SoftCall(commandStr)
+		if err != nil {
+			loglogrus.Log.Warnf("Http: Reply to user request -- SoftCall  warn:%s\n", err)
+			return
+		} else {
+			Address = strings.Join(data, "")
+			address, err := ExtractAddress(Address)
+			if err != nil {
+				fmt.Println("Error:", err)
+				return
+			} else {
+				c.JSON(http.StatusOK, gin.H{"address": address})
+			}
+
+		}
+		// commandStr := "invoke " + contractName + " " + functionName + " -args " + args
+		// receipt, err := ds.SoftInvoke(commandStr)
+		// if err != nil {
+		// 	c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "error": err.Error()})
+		// 	return
+		// }
+		// Address, err := ResultToAddress(receipt.Result)
+		// if err != nil {
+		// 	c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "error": err.Error()})
+		// 	return
+		// } else {
+		// 	c.JSON(http.StatusOK, gin.H{"address": Address})
+		// }
+	}
+}
 func SMFreceive(ds *api.DperService) func(*gin.Context) {
 	return func(c *gin.Context) {
 		// 解析消息内容
+
 		DID := c.PostForm("DID")
 		signature := c.PostForm("signature")
 		//getaddress
 		contractName := "DID::SPECTRUM::TRADE"
 		functionName := "GetAddress"
 		args := DID
-		commandStr := "invoke " + contractName + " " + functionName + " -args " + args
-		receipt, err := ds.SoftInvoke(commandStr)
+		commandStr := "call " + contractName + " " + functionName + " -args " + args
+		Address := ""
+		data, err := ds.SoftCall(commandStr)
 		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "error": err.Error()})
+			loglogrus.Log.Warnf("Http: Reply to user request -- SoftCall  warn:%s\n", err)
 			return
-		}
-
-		Address, err := ResultToAddress(receipt.Result)
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "error": err.Error()})
-			return
+		} else {
+			Address = strings.Join(data, "")
 		}
 		//signaturevalid
+		address, err := ExtractAddress(Address)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
 		msg := crypto.Sha3Hash([]byte(DID))
 		sig := common.Hex2Bytes(signature)
-		add := common.HexToAddress(Address)
+		add := common.HexToAddress(address)
 		ok, err := crypto.SignatureValid(add, sig, msg)
 		if err != nil {
 			c.JSON(http.StatusOK, gin.H{
@@ -1397,4 +1430,5 @@ func SMFreceive(ds *api.DperService) func(*gin.Context) {
 		}
 
 	}
+
 }

@@ -1,0 +1,206 @@
+[2024-03-28 17:52:45] [info] consensusPromoter.go:257 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Current Consensus Node (ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba) has receive transaction (count:1) from other consensus node (a75a72a28ea2bb6ebe7bede1c1998cb67d9ebfcb) 
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:280 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Current Consensus Node (ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba) has receive pre-prepare Message from Leader (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) within group (net0)
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:283 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Leader doesn't have corresponding roundHandler, Waiting for creation....
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:331 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: The new roundHandler (roundID:22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816) has been created and being running
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:45] [info] roundHandler.go:287 p3Chain/core/consensus.(*roundHandler).SendPrepareMsg [TPBFT Consensus] Lower Channel: Current Consensus Node (ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba) has broadcast prepareMsg within roundID (22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816)
+
+[2024-03-28 17:52:45] [info] roundHandler.go:161 p3Chain/core/consensus.(*roundHandler).Start [TPBFT Consensus] Lower Channel: roudHandler with round ID: 22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816 starts to running!
+
+[2024-03-28 17:52:45] [info] roundHandler.go:200 p3Chain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Node (ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba) has completed the prepare phase consensus, validOrder:[1]
+
+[2024-03-28 17:52:45] [info] tpbt_common.go:277 p3Chain/core/consensus.(*Ctpbft).TidyTransactions [TPBFT Consensus] Ctpbft: Leader (a75a72a28ea2bb6ebe7bede1c1998cb67d9ebfcb) Tidy candidateBlock successfully, blockID:237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07, txSum:1
+
+[2024-03-28 17:52:45] [info] roundHandler.go:238 p3Chain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Node (ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba) has completed the tidy phase consensus and has sent CommitMsg to the Leader (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05)
+
+[2024-03-28 17:52:45] [info] roundHandler.go:170 p3Chain/core/consensus.(*roundHandler).Stop.func1 [TPBFT Consensus] Lower Channel: roudHandler with round ID: 22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816 stop!
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:45] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:46] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:46] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:46] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:46] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:46] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:47] [info] consensusPromoter.go:217 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Current Consensus Node (ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba) has receive IntraWSUpdate message from leader, and updates to version 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07
+
+[2024-03-28 17:52:47] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:47] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:47] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:47] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:47] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:48] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:49] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:50] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:52] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:53] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:54] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+
+[2024-03-28 17:52:55] [info] consensusPromoter.go:277 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus failed: Leader doesn't have corresponding roundHandler, Cann't process messages of non-StatePrePrepare Msg!
+

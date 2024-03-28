@@ -381,7 +381,7 @@ func MacStartScript(file string, dperInitDir *dperfile.DperInit) {
     var scriptCmd string
 
     // 指定根目录路径
-    rootDir := "/Users/dengmingtao/Documents/GitHub/P3-Chain/dper/client/auto"
+    rootDir := "/Users/dengmingtao/Documents/GitHub/P3CHAINFOROAI/dper/client/auto"
 
     // 添加启动 booter 节点的命令
     scriptCmd += "osascript -e 'tell application \"Terminal\" to do script \"cd " + rootDir + "/dper_booter1 && ./start.sh; exec bash\"'\n"
@@ -405,7 +405,7 @@ func MacStopScript(file string, dperInitDir *dperfile.DperInit) {
     var scriptCmd string
 
     // 指定根目录路径
-    rootDir := "/Users/dengmingtao/Documents/GitHub/P3-Chain/dper/client/auto"
+    rootDir := "/Users/dengmingtao/Documents/GitHub/P3CHAINFOROAI/dper/client/auto"
 
     // 添加停止 booter 节点的命令
     scriptCmd += "osascript -e 'tell application \"Terminal\" to do script \"cd " + rootDir + "/dper_booter1 && ./stop.sh &\"'\n"

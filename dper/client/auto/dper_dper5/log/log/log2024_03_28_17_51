@@ -1,0 +1,120 @@
+[2024-03-28 17:51:36] [info] p3Chain.go:18 main.main [Dper] Dper Client running in PID: 75568  PPID: 75564 
+
+[2024-03-28 17:51:36] [info] dperCommand.go:45 p3Chain/dper/client/commandLine.(*CommandLine).runDperCommand Dper Init: Loading config...,configFile Path:./settings/dperConfig.json
+
+[2024-03-28 17:51:36] [info] backend.go:207 p3Chain/dper.NewDper NewDper: Initialize key manager...
+[2024-03-28 17:51:37] [info] backend.go:237 p3Chain/dper.NewDper NewDper: Welcome to Dper for the first time, the first account has been automatically generated for you!
+
+[2024-03-28 17:51:37] [info] backend.go:246 p3Chain/dper.NewDper NewDper: Complete loading key manager!
+
+[2024-03-28 17:51:37] [info] backend.go:253 p3Chain/dper.NewDper NewDper failed: Complete creating dpnet.Node for self: NodeID: ff26944f9dc7e38d41eb78eaa079a843d2c196726bf7d3fae388bfb7adb5ca3890413fadc4cb31001760f33b746a5afaee0f2c7161611c63ec06a358a86fdfba ,NetID: net0 , Role: 3
+
+[2024-03-28 17:51:37] [info] backend.go:255 p3Chain/dper.NewDper NewDper: Initialize database...
+[2024-03-28 17:51:37] [info] backend.go:297 p3Chain/dper.NewDper NewDper: Complete loading database!
+
+[2024-03-28 17:51:37] [info] backend.go:299 p3Chain/dper.NewDper NewDper: Initialize blockchain...
+
+[2024-03-28 17:51:37] [info] blockChain.go:94 p3Chain/core/eles.InitBlockChain BlockChain: Hello,First use of p3Chain!
+
+[2024-03-28 17:51:37] [info] backend.go:309 p3Chain/dper.NewDper NewDper: Complete initializing blockchain!
+
+[2024-03-28 17:51:37] [info] backend.go:311 p3Chain/dper.NewDper NewDper: Initialize state manager...
+
+[2024-03-28 17:51:37] [info] backend.go:313 p3Chain/dper.NewDper NewDper: Complete initializing state manager
+
+[2024-03-28 17:51:37] [info] backend.go:315 p3Chain/dper.NewDper NewDper: Initialize the lagging state manager...
+
+[2024-03-28 17:51:37] [info] state_manager_intra.go:152 p3Chain/core/worldstate.(*IntraStateManager).SetWorldStateVersion set intra world state version to 0x0000000000000000000000000000000000000000000000000000000000000000
+[2024-03-28 17:51:37] [info] backend.go:321 p3Chain/dper.NewDper NewDper: Complete initializing the lagging state manager
+
+[2024-03-28 17:51:37] [info] backend.go:323 p3Chain/dper.NewDper NewDper: Launch contract engine...
+
+[2024-03-28 17:51:37] [info] backend.go:366 p3Chain/dper.NewDper NewDper: Contract engine launched
+
+[2024-03-28 17:51:37] [info] backend.go:368 p3Chain/dper.NewDper NewDper: Now start net manager...
+
+[2024-03-28 17:51:37] [info] backend.go:468 p3Chain/dper.DperNetWorkInit [Dper Init] Network Init, Dper(127.0.0.1:58122) has connect with Booter(127.0.0.1:30300)
+
+[2024-03-28 17:51:37] [info] backend.go:479 p3Chain/dper.DperNetWorkInit [Dper Init] Network Init,Dper(127.0.0.1:58122) has send stateSelfMsg({net0 3 [255 38 148 79 157 199 227 141 65 235 120 234 160 121 168 67 210 193 150 114 107 247 211 250 227 136 191 183 173 181 202 56 144 65 63 173 196 203 49 0 23 96 243 59 116 106 90 250 238 15 44 113 97 97 28 99 236 6 163 88 168 111 223 186]}) bytes(269) to Booter(127.0.0.1:30300)
+
+[2024-03-28 17:51:47] [info] backend.go:492 p3Chain/dper.DperNetWorkInit [Dper Init] Network Init, Dper(127.0.0.1:58122) has receive response viewNet from Booter(127.0.0.1:30300)
+
+[2024-03-28 17:51:47] [info] backend.go:500 p3Chain/dper.DperNetWorkInit [Dper Init] Network Init, Dper has finish Network Init
+
+[2024-03-28 17:51:47] [info] server.go:322 p3Chain/p2p/server.(*Server).Start P2P: Prepare for Starting Server...
+
+[2024-03-28 17:51:47] [info] whisper.go:177 p3Chain/p2p/whisper.(*Whisper).Start P2P: Whisper started
+
+[2024-03-28 17:51:47] [info] backend.go:424 p3Chain/dper.NewDper NewDper: Net manager hsa started
+
+[2024-03-28 17:51:47] [info] server.go:567 p3Chain/p2p/server.(*Server).listenLoop Listening on:127.0.0.1:20135
+[2024-03-28 17:51:47] [info] backend.go:426 p3Chain/dper.NewDper NewDper: Now construct dper...
+
+[2024-03-28 17:51:47] [info] backend.go:450 p3Chain/dper.NewDper NewDper: Succeed in constructing dper
+
+[2024-03-28 17:51:48] [info] server.go:681 p3Chain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:6464393130343136306237656166656132646632353561343032623533343730326431396436313632373966353834366638343035303764626435366365326161363831346466326331393334396530303563313562666332373239383131656634306431366161613864626162656466633763323036313832373465633463) (srcIPAddr:127.0.0.1:20135) (destIPAddr:127.0.0.1:58186) 
+
+[2024-03-28 17:51:48] [info] synchronization.go:171 p3Chain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (dd9104160b7eafea2df255a402b534702d19d616279f5846f840507dbd56ce2aa6814df2c19349e005c15bfc2729811ef40d16aaa8dbabedfc7c20618274ec4c)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2024-03-28 17:51:48] [info] peer.go:215 p3Chain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (dd9104160b7eafea2df255a402b534702d19d616279f5846f840507dbd56ce2aa6814df2c19349e005c15bfc2729811ef40d16aaa8dbabedfc7c20618274ec4c), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2024-03-28 17:51:48] [info] downloader.go:133 p3Chain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (dd9104160b7eafea2df255a402b534702d19d616279f5846f840507dbd56ce2aa6814df2c19349e005c15bfc2729811ef40d16aaa8dbabedfc7c20618274ec4c) into Downloader peerSet successfully!
+
+[2024-03-28 17:51:48] [info] whisper.go:215 p3Chain/p2p/whisper.(*Whisper).handlePeer 与节点 (6464393130343136306237656166656132646632353561343032623533343730326431396436313632373966353834366638343035303764626435366365326161363831346466326331393334396530303563313562666332373239383131656634306431366161613864626162656466633763323036313832373465633463) 进行 whisper handshake!
+
+[2024-03-28 17:51:48] [info] separator.go:116 p3Chain/core/separator.(*Separator).handlePeer 与节点(dd9104160b7eafea2df255a402b534702d19d616279f5846f840507dbd56ce2aa6814df2c19349e005c15bfc2729811ef40d16aaa8dbabedfc7c20618274ec4c)进行separator handshake!
+
+[2024-03-28 17:51:48] [info] server.go:681 p3Chain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:3836306266633833353766316138343133366137393963306239616334656230346530373432313362323333353230363864353434353661663135663862613739356236613964353938643532333266303932633363623236396338346461303532356336353835303964316563366437623061643431653066663965306333) (srcIPAddr:127.0.0.1:20135) (destIPAddr:127.0.0.1:58188) 
+
+[2024-03-28 17:51:48] [info] synchronization.go:171 p3Chain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (860bfc8357f1a84136a799c0b9ac4eb04e074213b23352068d54456af15f8ba795b6a9d598d5232f092c3cb269c84da0525c658509d1ec6d7b0ad41e0ff9e0c3)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2024-03-28 17:51:48] [info] peer.go:215 p3Chain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (860bfc8357f1a84136a799c0b9ac4eb04e074213b23352068d54456af15f8ba795b6a9d598d5232f092c3cb269c84da0525c658509d1ec6d7b0ad41e0ff9e0c3), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2024-03-28 17:51:48] [info] downloader.go:133 p3Chain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (860bfc8357f1a84136a799c0b9ac4eb04e074213b23352068d54456af15f8ba795b6a9d598d5232f092c3cb269c84da0525c658509d1ec6d7b0ad41e0ff9e0c3) into Downloader peerSet successfully!
+
+[2024-03-28 17:51:48] [info] whisper.go:215 p3Chain/p2p/whisper.(*Whisper).handlePeer 与节点 (3836306266633833353766316138343133366137393963306239616334656230346530373432313362323333353230363864353434353661663135663862613739356236613964353938643532333266303932633363623236396338346461303532356336353835303964316563366437623061643431653066663965306333) 进行 whisper handshake!
+
+[2024-03-28 17:51:48] [info] separator.go:116 p3Chain/core/separator.(*Separator).handlePeer 与节点(860bfc8357f1a84136a799c0b9ac4eb04e074213b23352068d54456af15f8ba795b6a9d598d5232f092c3cb269c84da0525c658509d1ec6d7b0ad41e0ff9e0c3)进行separator handshake!
+
+[2024-03-28 17:51:48] [info] server.go:681 p3Chain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:6561383935366463323732636635333266646232633635346337373661623066326263643332346261373666326363393463373630666635386535346134363631646461366463383030666531646134353832666138353264373736663365303835656365346663343237626134623162363862336162323662363336643035) (srcIPAddr:127.0.0.1:20135) (destIPAddr:127.0.0.1:58193) 
+
+[2024-03-28 17:51:48] [info] separator.go:116 p3Chain/core/separator.(*Separator).handlePeer 与节点(ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05)进行separator handshake!
+
+[2024-03-28 17:51:48] [info] synchronization.go:171 p3Chain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2024-03-28 17:51:48] [info] whisper.go:215 p3Chain/p2p/whisper.(*Whisper).handlePeer 与节点 (6561383935366463323732636635333266646232633635346337373661623066326263643332346261373666326363393463373630666635386535346134363631646461366463383030666531646134353832666138353264373736663365303835656365346663343237626134623162363862336162323662363336643035) 进行 whisper handshake!
+
+[2024-03-28 17:51:48] [info] peer.go:215 p3Chain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2024-03-28 17:51:48] [info] downloader.go:133 p3Chain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) into Downloader peerSet successfully!
+
+[2024-03-28 17:51:50] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn ff26944f9dc7e38d 127.0.0.1:58224 failed checkpoint posthandshake: Connected to self
+[2024-03-28 17:51:50] [info] server.go:681 p3Chain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:6538353466363830663936363266353061383031336363656632643634626261323639373362383334633066633334626164363765633465363663346535313330653765626564363563633436613463656561666530613662346564333234346435323930333235383163643661346235646166646361633062623161623933) (srcIPAddr:127.0.0.1:58227) (destIPAddr:127.0.0.1:20136) 
+
+[2024-03-28 17:51:50] [info] server.go:681 p3Chain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:3635353265303265373435636532653165653766333832656661313837363937373066633962646335303932633966383662643364666663383762326565643666323066636434613332326634663034306338643065333461346163663963613637346332666231646236303930613837666239626334343436373335366164) (srcIPAddr:127.0.0.1:58226) (destIPAddr:127.0.0.1:20132) 
+
+[2024-03-28 17:51:50] [info] separator.go:116 p3Chain/core/separator.(*Separator).handlePeer 与节点(e854f680f9662f50a8013ccef2d64bba26973b834c0fc34bad67ec4e66c4e5130e7ebed65cc46a4ceeafe0a6b4ed3244d529032581cd6a4b5dafdcac0bb1ab93)进行separator handshake!
+
+[2024-03-28 17:51:50] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn dyn dial conn ff26944f9dc7e38d 127.0.0.1:20135 failed checkpoint posthandshake: Connected to self
+[2024-03-28 17:51:50] [info] whisper.go:215 p3Chain/p2p/whisper.(*Whisper).handlePeer 与节点 (3635353265303265373435636532653165653766333832656661313837363937373066633962646335303932633966383662643364666663383762326565643666323066636434613332326634663034306338643065333461346163663963613637346332666231646236303930613837666239626334343436373335366164) 进行 whisper handshake!
+
+[2024-03-28 17:51:50] [info] synchronization.go:171 p3Chain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (e854f680f9662f50a8013ccef2d64bba26973b834c0fc34bad67ec4e66c4e5130e7ebed65cc46a4ceeafe0a6b4ed3244d529032581cd6a4b5dafdcac0bb1ab93)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2024-03-28 17:51:50] [info] whisper.go:215 p3Chain/p2p/whisper.(*Whisper).handlePeer 与节点 (6538353466363830663936363266353061383031336363656632643634626261323639373362383334633066633334626164363765633465363663346535313330653765626564363563633436613463656561666530613662346564333234346435323930333235383163643661346235646166646361633062623161623933) 进行 whisper handshake!
+
+[2024-03-28 17:51:50] [info] separator.go:116 p3Chain/core/separator.(*Separator).handlePeer 与节点(6552e02e745ce2e1ee7f382efa18769770fc9bdc5092c9f86bd3dffc87b2eed6f20fcd4a322f4f040c8d0e34a4acf9ca674c2fb1db6090a87fb9bc44467356ad)进行separator handshake!
+
+[2024-03-28 17:51:50] [info] server.go:681 p3Chain/p2p/server.(*Server).runPeer Added Protocal peer (NodeID:3166373961383531663866666133633566343034666331346438363463663230393565643863666362313237636635313035636330653961343431653066366333313433373661313032633431373365326130646661396332613739623866386466626638363062386535636130343366363463636639316435383061336136) (srcIPAddr:127.0.0.1:58225) (destIPAddr:127.0.0.1:20130) 
+
+[2024-03-28 17:51:50] [info] synchronization.go:171 p3Chain/blockSync.(*SyncProtocal).handle Block synchronization: Start block synchronization with node (6552e02e745ce2e1ee7f382efa18769770fc9bdc5092c9f86bd3dffc87b2eed6f20fcd4a322f4f040c8d0e34a4acf9ca674c2fb1db6090a87fb9bc44467356ad)... LocalHeight (0), LocalVersion (0000000000000000000000000000000000000000000000000000000000000000)
+
+[2024-03-28 17:51:50] [info] separator.go:116 p3Chain/core/separator.(*Separator).handlePeer 与节点(1f79a851f8ffa3c5f404fc14d864cf2095ed8cfcb127cf5105cc0e9a441e0f6c314376a102c4173e2a0dfa9c2a79b8f8dfbf860b8e5ca043f64ccf91d580a3a6)进行separator handshake!
+
+[2024-03-28 17:51:50] [info] whisper.go:215 p3Chain/p2p/whisper.(*Whisper).handlePeer 与节点 (3166373961383531663866666133633566343034666331346438363463663230393565643863666362313237636635313035636330653961343431653066366333313433373661313032633431373365326130646661396332613739623866386466626638363062386535636130343366363463636639316435383061336136) 进行 whisper handshake!
+
+[2024-03-28 17:51:50] [warning] server.go:553 p3Chain/p2p/server.(*Server).encHandshakeChecks 进行加密handshake: 节点已经与本机建立了连接
+
+[2024-03-28 17:51:50] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn 1f79a851f8ffa3c5 127.0.0.1:58228 failed checkpoint posthandshake: Already connected
+[2024-03-28 17:51:50] [info] peer.go:215 p3Chain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (6552e02e745ce2e1ee7f382efa18769770fc9bdc5092c9f86bd3dffc87b2eed6f20fcd4a322f4f040c8d0e34a4acf9ca674c2fb1db6090a87fb9bc44467356ad), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2024-03-28 17:51:50] [info] downloader.go:133 p3Chain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (6552e02e745ce2e1ee7f382efa18769770fc9bdc5092c9f86bd3dffc87b2eed6f20fcd4a322f4f040c8d0e34a4acf9ca674c2fb1db6090a87fb9bc44467356ad) into Downloader peerSet successfully!
+
+[2024-03-28 17:51:50] [info] peer.go:215 p3Chain/blockSync.(*peer).Handshake Block synchronization: Get ResponseMsg from node (e854f680f9662f50a8013ccef2d64bba26973b834c0fc34bad67ec4e66c4e5130e7ebed65cc46a4ceeafe0a6b4ed3244d529032581cd6a4b5dafdcac0bb1ab93), RemoteHeight (0)  RemoteVersion (0000000000000000000000000000000000000000000000000000000000000000)
+[2024-03-28 17:51:50] [info] downloader.go:133 p3Chain/blockSync/downloader.(*Downloader).RegisterPeer Block synchronization Downloader: Register peer (e854f680f9662f50a8013ccef2d64bba26973b834c0fc34bad67ec4e66c4e5130e7ebed65cc46a4ceeafe0a6b4ed3244d529032581cd6a4b5dafdcac0bb1ab93) into Downloader peerSet successfully!
+

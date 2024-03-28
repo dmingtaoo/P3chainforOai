@@ -1,0 +1,7 @@
+[2024-03-28 17:49:30] [info] p3Chain.go:18 main.main [Dper] Dper Client running in PID: 71899  PPID: 71743 
+
+[2024-03-28 17:49:30] [info] server.go:322 p3Chain/p2p/server.(*Server).Start P2P: Prepare for Starting Server...
+
+[2024-03-28 17:49:32] [info] whisper.go:177 p3Chain/p2p/whisper.(*Whisper).Start P2P: Whisper started
+
+[2024-03-28 17:49:32] [info] server.go:567 p3Chain/p2p/server.(*Server).listenLoop Listening on:127.0.0.1:20130

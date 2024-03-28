@@ -78,8 +78,9 @@ func InitRouter(bs *api.BlockService, ds *api.DperService, ns *api.NetWorkServic
 		dper.POST("/txCheck", OpenTxCheckMode(ds))
 		dper.POST("/solidInvoke", SolidInvoke(ds))
 		dper.POST("/solidCall", SolidCall(ds))
+		dper.POST("/softCall", SoftCall(ds))
 		dper.POST("/softInvoke", SoftInvoke(ds))
-		
+
 		dper.POST("/signaturereturn", SignatureReturn(ds))
 		dper.POST("/signaturereturn2", SignatureReturn2(ds))
 		dper.POST("/signvalid", SignValid(ds))

@@ -1,0 +1,5 @@
+[2024-03-28 17:51:50] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn ff26944f9dc7e38d 127.0.0.1:58224 failed checkpoint posthandshake: Connected to self
+[2024-03-28 17:51:50] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn dyn dial conn ff26944f9dc7e38d 127.0.0.1:20135 failed checkpoint posthandshake: Connected to self
+[2024-03-28 17:51:50] [warning] server.go:553 p3Chain/p2p/server.(*Server).encHandshakeChecks 进行加密handshake: 节点已经与本机建立了连接
+
+[2024-03-28 17:51:50] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn 1f79a851f8ffa3c5 127.0.0.1:58228 failed checkpoint posthandshake: Already connected

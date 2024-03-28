@@ -1,0 +1,26 @@
+[2024-03-28 17:52:45] [info] consensusPromoter.go:541 p3Chain/core/consensus.(*ConsensusPromoter).PublishTransactions [TPBFT Consensus] Current Consensus Node (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) has published new transactions (count:1) and broadcast within lower group (net0)!
+
+[2024-03-28 17:52:45] [info] tpbt_common.go:618 p3Chain/core/consensus.(*Ctpbft).NewRound [TPBFT Consensus] Ctpbft: The Leader (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) of group (net0) broadcast PrePrepareMsg successfully, New RoundHandler has been created (roundID:22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816), Start a new round of consensus!
+
+[2024-03-28 17:52:45] [info] roundHandler.go:161 p3Chain/core/consensus.(*roundHandler).Start [TPBFT Consensus] Lower Channel: roudHandler with round ID: 22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816 starts to running!
+
+[2024-03-28 17:52:45] [info] roundHandler.go:113 p3Chain/core/consensus.(*roundHandler).processMsg [TPBFT Consensus] Lower Consensus: Node (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) receive validated PrepareMsg from Node (860bfc8357f1a84136a799c0b9ac4eb04e074213b23352068d54456af15f8ba795b6a9d598d5232f092c3cb269c84da0525c658509d1ec6d7b0ad41e0ff9e0c3) and has added it into roundHandler.prepareMsgPool
+
+[2024-03-28 17:52:45] [info] roundHandler.go:200 p3Chain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Node (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) has completed the prepare phase consensus, validOrder:[1]
+
+[2024-03-28 17:52:45] [info] tpbt_common.go:277 p3Chain/core/consensus.(*Ctpbft).TidyTransactions [TPBFT Consensus] Ctpbft: Leader (a75a72a28ea2bb6ebe7bede1c1998cb67d9ebfcb) Tidy candidateBlock successfully, blockID:237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07, txSum:1
+
+[2024-03-28 17:52:45] [info] roundHandler.go:238 p3Chain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Node (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) has completed the tidy phase consensus and has sent CommitMsg to the Leader (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05)
+
+[2024-03-28 17:52:45] [info] tpbt_common.go:364 p3Chain/core/consensus.(*Ctpbft).SubmitBlock [TPBFT Consensus] Ctpbft: Block: 237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07 is submitted upto UpperChannel, Version: 0000000000000000000000000000000000000000000000000000000000000000, Nonce: 0, txSum: 1
+
+[2024-03-28 17:52:45] [info] roundHandler.go:170 p3Chain/core/consensus.(*roundHandler).Stop.func1 [TPBFT Consensus] Lower Channel: roudHandler with round ID: 22afb1bb785ee74ee73220738e3990b933e2311ad7df476828af5e59cb995816 stop!
+
+[2024-03-28 17:52:45] [info] roundHandler.go:260 p3Chain/core/consensus.(*roundHandler).Do [TPBFT Consensus] Lower Channel: Leader (ea8956dc272cf532fdb2c654c776ab0f2bcd324ba76f2cc94c760ff58e54a4661dda6dc800fe1da4582fa852d776f3e085ece4fc427ba4b1b68b3ab26b636d05) has completed the commit phase consensus, Complete LowerChannel consensus
+
+[2024-03-28 17:52:46] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07, old version: 0x0000000000000000000000000000000000000000000000000000000000000000
+
+[2024-03-28 17:52:51] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07, old version: 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07
+
+[2024-03-28 17:52:56] [info] consensusPromoter.go:421 p3Chain/core/consensus.(*ConsensusPromoter).updateIntraWorldState [TPBFT Consensus] Consensus Promoter: leader launch an intra-shard world state update to version 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07, old version: 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07
+

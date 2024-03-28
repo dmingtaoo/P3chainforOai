@@ -1,0 +1,2 @@
+[2024-03-28 17:52:51] [info] consensusPromoter.go:217 p3Chain/core/consensus.(*ConsensusPromoter).lowerUpdate [TPBFT Consensus] Lower Consensus: Current Consensus Node (e854f680f9662f50a8013ccef2d64bba26973b834c0fc34bad67ec4e66c4e5130e7ebed65cc46a4ceeafe0a6b4ed3244d529032581cd6a4b5dafdcac0bb1ab93) has receive IntraWSUpdate message from leader, and updates to version 0x237a0089ee66f44fc0eb1c3a3070febc168352213f2f1fc9037ae5d73a189d07
+

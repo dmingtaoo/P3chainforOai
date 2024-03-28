@@ -1,0 +1,11 @@
+[2024-03-28 17:51:46] [warning] server.go:553 p3Chain/p2p/server.(*Server).encHandshakeChecks 进行加密handshake: 节点已经与本机建立了连接
+
+[2024-03-28 17:51:46] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn 1f79a851f8ffa3c5 127.0.0.1:58173 failed checkpoint posthandshake: Already connected
+[2024-03-28 17:51:48] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn inbound conn ea8956dc272cf532 127.0.0.1:58196 failed checkpoint posthandshake: Connected to self
+[2024-03-28 17:51:48] [warning] server.go:553 p3Chain/p2p/server.(*Server).encHandshakeChecks 进行加密handshake: 节点已经与本机建立了连接
+
+[2024-03-28 17:51:48] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn dyn dial conn 860bfc8357f1a841 127.0.0.1:20133 failed checkpoint posthandshake: Already connected
+[2024-03-28 17:51:48] [warning] server.go:553 p3Chain/p2p/server.(*Server).encHandshakeChecks 进行加密handshake: 节点已经与本机建立了连接
+
+[2024-03-28 17:51:48] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn dyn dial conn dd9104160b7eafea 127.0.0.1:20134 failed checkpoint posthandshake: Already connected
+[2024-03-28 17:51:48] [warning] server.go:631 p3Chain/p2p/server.(*Server).setupConn dyn dial conn ea8956dc272cf532 127.0.0.1:20131 failed checkpoint posthandshake: Connected to self
